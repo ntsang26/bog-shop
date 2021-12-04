@@ -1,0 +1,15 @@
+.uploade-zone {
+    border: 2px dashed #ced4da;
+    border-radius: 1rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.uploade-zone img {
+    max-height: 290px;
+    cursor: pointer;
+}
