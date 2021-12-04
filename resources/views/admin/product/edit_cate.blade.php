@@ -20,7 +20,7 @@
                 <label for="thumbnail">Hình ảnh danh mục *</label>
                 <div class="uploade-zone">
                     <label>
-                        <img src="{!!"/storage/category/".$cate->thumbnail!!}" id="preview" alt="cate image" class="pt-2">
+                        <img src="{!!asset("storage/category/".$cate->thumbnail)!!}" id="preview" alt="cate image" class="pt-2">
                         <input type="file" class="form-control col-1" id="pre" name="thumbnail" hidden>
                     </label>
                 </div>

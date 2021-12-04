@@ -39,7 +39,7 @@
         <tr>
             <th scope="row">{!!$item->id!!}</th>
             <td>
-                <img src="{!!" /storage/product/".$item->thumbnail!!}" alt="img product" height="60">
+                <img src="{{asset("storage/product/".$item->thumbnail)}}" alt="img product" height="60">
             </td>
             <td>{!!$item->name!!}</td>
             <td>{!!$item->category->name!!}</td>

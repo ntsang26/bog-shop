@@ -7,7 +7,7 @@
             @foreach ($category as $item)
             <li class="category__item">
                 <a href="#" class="category__link">
-                    <img src="{{asset("/storage/category/".$item->thumbnail)}}" alt="" class="category__thumb" />
+                    <img src="{{asset("storage/category/".$item->thumbnail)}}" alt="" class="category__thumb" />
                     <span>{!!$item->name!!}</span>
                 </a>
             </li>

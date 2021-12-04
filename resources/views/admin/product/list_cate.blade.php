@@ -41,7 +41,7 @@
                     <th scope="row">{!! $item->id !!}</th>
                     <td>{!! $item->name !!}</td>
                     <td>
-                        <img src="{!!asset("/storage/category/".$item->thumbnail)!!}" alt="cate image" height="60px">
+                        <img src="{!!asset("storage/category/".$item->thumbnail)!!}" alt="cate image" height="60px">
                     </td>
                     <td>
                         <a href="{!! route('admin.product.cate.getEditCate', $item->id) !!}">

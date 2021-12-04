@@ -46,7 +46,7 @@
             <label for="thumbnail">Hình ảnh sản phẩm</label>
             <div class="uploade-zone">
                 <label>
-                    <img src="{!!"/storage/product/".$prd->thumbnail!!}" id="preview" alt="cate image"
+                    <img src="{!!asset("storage/product/".$prd->thumbnail)!!}" id="preview" alt="cate image"
                         class="pt-2">
                     <input type="file" class="form-control col-1" id="pre" name="thumbnail" hidden>
                 </label>
